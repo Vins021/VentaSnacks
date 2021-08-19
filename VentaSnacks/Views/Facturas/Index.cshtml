@@ -1,0 +1,71 @@
+﻿@model IEnumerable<VentaSnacks.Models.Factura>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Facturas</h2>
+
+<p>
+    @Html.ActionLink("Nueva Factura", "Create")
+</p>
+<table class="table">
+    <tr class="table-secondary" style="text-align:center">
+        <th>
+            N. Factura
+        </th>
+        <th>
+            Total
+        </th>
+        <th>
+            Fecha
+        </th>
+        <th>
+            Cliente
+        </th>
+        <th>
+            Tipo Pago
+        </th>
+        <th>
+            Estado
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="text-align:center">
+            <td>
+                @Html.DisplayFor(modelItem => item.idFactura)
+            </td>
+            <td style="text-align:right">
+                <span>₡ </span> @Html.DisplayFor(modelItem => item.Total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha)
+            </td>
+            <td>
+                @if (item.Cliente == null)
+                {
+                    <span>Sin Cliente</span>
+                }
+                @Html.DisplayFor(modelItem => item.Cliente.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoPago.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado.nombre)
+            </td>
+            <td style="text-align:right">
+                @if (item.idEstado == 0)
+                {
+                    @Html.ActionLink("Pagar", "Pagar", new { id = item.idFactura },htmlAttributes:new{style="color: mediumspringgreen"}) 
+                }
+                 | @Html.ActionLink("Detalle", "Details", new { id = item.idFactura })
+            </td>
+        </tr>
+    }
+
+</table>

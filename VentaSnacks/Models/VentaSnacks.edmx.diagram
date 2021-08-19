@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4f6f56438e6646d8b700de13a08b8d69" Name="Diagram1">
+        <EntityTypeShape EntityType="VentaSnackModel.Articulo" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaSnackModel.Cliente" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaSnackModel.Estado" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaSnackModel.Factura" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaSnackModel.Linea" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaSnackModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaSnackModel.TipoPago" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaSnackModel.User" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="VentaSnackModel.FK_Linea_Articulo" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaSnackModel.FK_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaSnackModel.FK_Factura_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaSnackModel.FK_Factura_TipoPago" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaSnackModel.LineaFactura" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

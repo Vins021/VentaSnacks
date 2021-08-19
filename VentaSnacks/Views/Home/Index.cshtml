@@ -1,0 +1,17 @@
+﻿@{
+    <link href="~/Content/StyleP.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+}
+<div class="Facturar">
+    @Html.ActionLink("Facturar", "Create", "Facturas")
+</div>

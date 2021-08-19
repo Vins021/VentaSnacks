@@ -1,0 +1,65 @@
+﻿@model VentaSnacks.Models.Factura
+
+@{
+    ViewBag.Title = "Pagar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.idFactura)
+    @Html.HiddenFor(model => model.idCliente)
+    @Html.HiddenFor(model => model.porcentajeDesc)
+    @Html.HiddenFor(model => model.Total)
+    @Html.HiddenFor(model => model.idTipoPago)
+    @Html.HiddenFor(model => model.fecha)
+
+    <div class="contenedor">
+
+        <h2>Factura: @Model.idFactura</h2>
+        <br />
+        <h3>Total a pagar:   ₡ @Model.Total</h3>
+        <br />
+        <hr />
+
+        @if (Model.idTipoPago == 0)
+        {
+            <div>
+                Digite el Número de la tarjeta
+            </div>
+            <div>
+                <input type="number" value="" name="numTarjeta" id="numTarjeta" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Pagar" class="btn btn-default" />
+            </div>
+        }
+        else
+        {
+
+            <div>
+                Digite el Monto a Cancelar
+            </div>
+            <div>
+                <input type="number" value="" name="montoCancelar" id="montoCancelar" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Pagar" class="btn btn-default" />
+            </div>
+        }
+
+
+
+    </div>
+
+
+}
+
+<div>
+    @Html.ActionLink("Regresar", "Index")
+</div>

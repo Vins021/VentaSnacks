@@ -1,0 +1,211 @@
+﻿@model VentaSnacks.Models.Factura
+@{
+    <link href="~/Content/StyleP.css" rel="stylesheet" />
+    ViewBag.Title = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">*@
+    <link href="~/Content/Personalizado.css" rel="stylesheet" />
+    <link href="~/Content/smart_wizard_vertical.css" rel="stylesheet" />
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+}
+@if ((VentaSnacks.Models.User)Session["usuario."] == null)
+{
+    Response.Redirect("~/Users/Login");
+}
+<div class="fondo">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <br />
+        <h2>Nueva Factura</h2>
+        <br />
+        <br />
+        <div class="contenedor">
+            <table id="tablaFactura" style="min-width:500px;">
+                @*<tr>
+                <td>Seleccionar Cliente: <input type="checkbox" name="checkCliente" id="checkCliente" value="1" onchange="javascript:showContent()" /></td>
+                <td></td>
+            </tr>*@
+                <tr id="clientes">
+
+                    <td>Cliente: </td>
+                    <td>
+                        @Html.DropDownList("idCliente", null, "Cliente Contado", htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.idCliente, "", new { @class = "text-danger" })
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>Productos: </th>
+                    <th>
+                        @Html.ActionLink("Agregar Productos", "Create", "Lineas")
+                    </th>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <br />
+                        @if (ViewBag.listaLineas.Count != 0)
+                        {
+                            <table class="table-secondary" style="width:100%">
+                                <tr style="text-align:center">
+                                    <th>
+                                        <h5>Nombre</h5>
+                                    </th>
+                                    <th>
+                                        <h5>Cantidad</h5>
+                                    </th>
+                                    <th>
+                                        <h5>Total</h5>
+                                    </th>
+                                </tr>
+
+                                @foreach (var lin in ViewBag.listaLineas)
+                                {
+                                    <tr style="text-align:center">
+                                        <td>
+                                            <h6>@lin.Articulo.nombre</h6>
+                                        </td>
+                                        <td>
+                                            <h6>@lin.cantidad</h6>
+                                        </td>
+                                        <td style="text-align:right">
+                                            <h6>₡ @lin.total</h6>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </table>
+                        }
+                        else
+                        {
+                            <h4 style="color:orangered">No hay Productos Seleccionados</h4>
+                        }
+
+                        <br />
+                    </td>
+                </tr>
+
+
+
+                @if ((Boolean)ViewData["AplicaDescuento"] == true)
+                {
+                    <tr>
+                        <td>Descuento: </td>
+                        <td>
+                            @Html.EditorFor(model => model.porcentajeDesc, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.porcentajeDesc, "", new { @class = "text-danger" })
+                        </td>
+                    </tr>
+                }
+                <tr>
+                    <td>SubTotal: </td>
+                    <td style="text-align:right">
+                        <div class="col-md-10">
+                            <h6>₡ @ViewData["Subtotal"]</h6>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Descuento: </td>
+                    <td style="text-align:right">
+                        <div class="col-md-10">
+                            <h6>₡ @ViewData["Descuento"]</h6>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Impuestos: </td>
+                    <td style="text-align:right">
+                        <div class="col-md-10">
+                            <h6>₡ @ViewData["Impuestos"]</h6>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total: </td>
+                    <td style="text-align:right">
+                        <div class="col-md-10">
+                            <h5>₡ @ViewData["Total"]</h5>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tipo de Pago</td>
+                    <td>
+                        @Html.DropDownList("idTipoPago", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.idTipoPago, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr /></td>
+                </tr>
+                <tr style="text-align:center">
+                    <td>
+                        <div>
+                            @Html.ActionLink("Regresar", "Index", "Home")
+                        </div>
+                    </td>
+                    <td>
+                        <br />
+                        <div class="col-md-offset-2 col-md-10">
+                            <button type="submit" class="btn btn-primary" data-dismiss="modal">Pagar</button>
+                        </div>
+                        <br />
+                    </td>
+                </tr>
+            </table>
+            <br />
+
+        </div>
+
+
+
+
+
+
+    }
+
+
+
+</div>
+
+
+
+
+
+
+
+
+@section Scripts {
+    <script type="text/javascript">
+        function showContent() {
+            element = document.getElementById("clientes");
+            check = document.getElementById("chkSeleccion");
+            if (check.checked) {
+                element.style.display = 'block';
+            }
+            else {
+                element.style.display = 'none';
+            }
+        }</script>
+
+
+
+}
+
+

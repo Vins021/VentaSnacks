@@ -1,0 +1,160 @@
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\VentaSnacks.dll.config
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\VentaSnacks.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\VentaSnacks.pdb
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\csc.exe
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\csc.exe.config
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\csc.rsp
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\csi.exe
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\csi.exe.config
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\csi.rsp
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.AppContext.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Console.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\vbc.exe
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\vbc.exe.config
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\vbc.rsp
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\Antlr3.Runtime.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\EntityFramework.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\EntityFramework.SqlServer.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\Newtonsoft.Json.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Helpers.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Mvc.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Optimization.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Razor.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\WebGrease.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\EntityFramework.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\EntityFramework.SqlServer.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Helpers.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Mvc.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Optimization.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.Razor.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\Newtonsoft.Json.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\Antlr3.Runtime.pdb
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.csprojAssemblyReference.cache
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.csproj.CoreCompileInputs.cache
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.csproj.CopyComplete
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.dll
+C:\Users\Zero\Documents\U\Calidad Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.pdb
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\VentaSnacks.dll.config
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\VentaSnacks.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\VentaSnacks.pdb
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\csc.exe
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\csc.exe.config
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\csc.rsp
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\csi.exe
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\csi.exe.config
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\csi.rsp
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.Managed.Core.targets
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.AppContext.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Collections.Immutable.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Console.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.Compression.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.FileSystem.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.IO.Pipes.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Reflection.Metadata.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.AccessControl.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Claims.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Security.Principal.Windows.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.ValueTuple.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.XmlDocument.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.XPath.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\vbc.exe
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\vbc.exe.config
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\vbc.rsp
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\VBCSCompiler.exe
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\roslyn\VBCSCompiler.exe.config
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\Antlr3.Runtime.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\EntityFramework.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\EntityFramework.SqlServer.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\Microsoft.Web.Infrastructure.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\Newtonsoft.Json.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Helpers.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Mvc.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Optimization.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Razor.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Deployment.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Razor.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\WebGrease.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\EntityFramework.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\EntityFramework.SqlServer.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Helpers.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Mvc.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Optimization.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.Razor.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Deployment.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\System.Web.WebPages.Razor.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\Newtonsoft.Json.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\Antlr3.Runtime.pdb
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.csproj.CoreCompileInputs.cache
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.csproj.CopyComplete
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.dll
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.pdb
+F:\U\Calidad del Software\VentaSnacks\VentaSnacks\obj\Debug\VentaSnacks.csprojAssemblyReference.cache
