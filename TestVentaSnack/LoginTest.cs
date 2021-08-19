@@ -6,6 +6,7 @@ namespace TestVentaSnack
     [TestClass]
     public class LoginTest
     {
+        //Login Usuario Correcto
         [TestMethod]
         public void usuarioCorrecto()
         {
@@ -22,6 +23,7 @@ namespace TestVentaSnack
             Assert.AreEqual(usuarioCorrecto.password, usuarioRecibido.password);
         }
 
+        //Login Usuario Incorrecto
         [TestMethod]
         public void usuarioIncorrecto()
         {
